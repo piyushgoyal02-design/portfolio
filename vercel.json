@@ -1,5 +1,5 @@
 {
-  "builds": [
-    { "src": "portfolio.html", "use": "@vercel/static" }
+  "rewrites": [
+    { "source": "/", "destination": "/portfolio.html" }
   ]
 }
